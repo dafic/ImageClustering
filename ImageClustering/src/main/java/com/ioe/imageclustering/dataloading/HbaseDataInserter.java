@@ -25,7 +25,7 @@ public class HbaseDataInserter extends Configured implements Tool {
     public int run(String[] args) throws Exception {
         Configuration conf = new Configuration();
 
-        Path inputPath = new Path("/dataset-short");
+        Path inputPath = new Path("/dataset-short-2");
         Path outputPath = new Path("/Result-data-loading");
         FileSystem fs = FileSystem.get(conf);
         if (fs.exists(outputPath)) {
