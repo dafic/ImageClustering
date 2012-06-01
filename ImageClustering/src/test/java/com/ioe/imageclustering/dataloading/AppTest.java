@@ -1,4 +1,4 @@
-package com.ioe.imageclustering.imageclustering;
+package com.ioe.imageclustering.dataloading;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
