@@ -50,7 +50,7 @@ public class HbaseDataInserter extends Configured implements Tool {
         FileInputFormat.setInputPaths(job, inputPath);
         FileOutputFormat.setOutputPath(job, outputPath);
 
-        job.setNumReduceTasks(1);
+        job.setNumReduceTasks(0);
         System.exit(job.waitForCompletion(true) ? 0 : 1);
         return 0;
     }
