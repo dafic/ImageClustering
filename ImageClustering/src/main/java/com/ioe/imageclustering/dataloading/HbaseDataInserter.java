@@ -18,7 +18,7 @@ import org.apache.hadoop.util.ToolRunner;
 
 /**
  * Hello world!
- *
+ *this is test
  */
 public class HbaseDataInserter extends Configured implements Tool {
     @Override
