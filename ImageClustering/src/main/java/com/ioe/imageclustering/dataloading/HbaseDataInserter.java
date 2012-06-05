@@ -20,6 +20,7 @@ import org.apache.hadoop.util.ToolRunner;
  * Hello world!
  *this is test
  */
+/** this is another test **/
 public class HbaseDataInserter extends Configured implements Tool {
     @Override
     public int run(String[] args) throws Exception {
